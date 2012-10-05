@@ -57,7 +57,7 @@
 
 // 16-bit timer output compare values corresponding to MIDI note frequencies
 // Computed for 12MHz CPU and 1/8 prescaler
-uint16_t freqvals[128] PROGMEM =
+const uint16_t freqvals[128] PROGMEM =
 {
   65535,65535,65535,65535,65535,65535,64865,61224,
   57788,54544,51483,48593,45866,43292,40862,38568,
